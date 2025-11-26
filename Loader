@@ -32,6 +32,13 @@ end
 Tab:CreateSection("Scripts")
 
 Tab:CreateButton({
+    Name = "Blade Ball",
+    Callback = function()
+        LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Blade%20Ball")
+    end
+})
+
+Tab:CreateButton({
     Name = "Standblox",
     Callback = function()
         LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Standblox")

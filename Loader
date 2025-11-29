@@ -39,6 +39,13 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
+    Name = "Muscle Legends",
+    Callback = function()
+        LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Muscle%20Legends")
+    end
+})
+
+Tab:CreateButton({
     Name = "Standblox",
     Callback = function()
         LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Standblox")

@@ -39,6 +39,13 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
+    Name = "Blox Fruits",
+    Callback = function()
+        LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Blox%20Fruits")
+    end
+})
+
+Tab:CreateButton({
     Name = "Muscle Legends",
     Callback = function()
         LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Muscle%20Legends")

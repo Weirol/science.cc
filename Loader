@@ -62,7 +62,14 @@ Tab:CreateButton({
 Tab:CreateButton({
     Name = "Drive World",
     Callback = function()
-        LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Drive World")
+        LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Drive%20World")
+    end
+})
+
+Tab:CreateButton({
+    Name = "Aircraft Carrier",
+    Callback = function()
+        LaunchScript("https://raw.githubusercontent.com/Weirol/science.cc/refs/heads/main/Aircraft%20Carrier")
     end
 })
 

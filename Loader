@@ -82,6 +82,5 @@ Tab:CreateButton({
 
 Luna:Notification({
     Title = "Science.cc",
-    Content = "Loader initialized",
     Time = 3
 })

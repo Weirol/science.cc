@@ -47,12 +47,13 @@ end
 destroyGuis()
 
 local Config = {
-    flySpeed       = 450,
-    maxStepSize    = 12,
+    flySpeed       = 100,
+    maxStepSize    = 6,
     arriveDistance = 40,
     taxiJobId      = "Taxi",
     trailerJobId   = "TrailerDelivery",
 }
+
 
 local function newJobState()
     return {
